@@ -47,7 +47,7 @@ body {
     background-image: url('hero-bg.jpg');
     background-size: cover;
     background-position: center;
-    color: white;
+    color: green;
     height: 80vh;
     display: flex;
     align-items: center;
