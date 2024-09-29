@@ -1,256 +1,256 @@
 /* General Styles */
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f9f9f9;
-            line-height: 1.6;
-        }
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    line-height: 1.6;
+}
 
-        /* Navbar */
-        .navbar {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 1rem;
-            background-color: violet; /* Violet navbar */
-            color: white;
-            position: relative;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-        }
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: white; /* White navbar */
+    color: #4CAF50; /* Green text */
+    position: relative;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for navbar */
+}
 
-        .nav-links {
-            list-style: none;
-            display: flex;
-            gap: 20px;
-        }
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
 
-        .nav-links li {
-            display: inline;
-        }
+.nav-links li {
+    display: inline;
+}
 
-        .nav-links a {
-            color: white; /* White links */
-            text-decoration: none;
-            font-weight: bold;
-        }
+.nav-links a {
+    color: #4CAF50; /* Green links */
+    text-decoration: none;
+    font-weight: bold;
+}
 
-        .hamburger {
-            display: none;
-            font-size: 2rem;
-            cursor: pointer;
-            color: white; /* White hamburger icon */
-        }
+.hamburger {
+    display: none;
+    font-size: 2rem;
+    cursor: pointer;
+    color: #4CAF50; /* Green hamburger icon */
+}
 
-        /* Hero Section */
-        .hero {
-            background-image: url('hero-bg.jpg');
-            background-size: cover;
-            background-position: center;
-            color: white;
-            height: 80vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-        }
+/* Hero Section */
+.hero {
+    background-image: url('hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
 
-        .hero h1 {
-            font-size: 3rem;
-            margin: 0;
-        }
+.hero h1 {
+    font-size: 3rem;
+    margin: 0;
+}
 
-        .hero p {
-            font-size: 1.5rem;
-            margin: 20px 0;
-        }
+.hero p {
+    font-size: 1.5rem;
+    margin: 20px 0;
+}
 
-        .cta-btn {
-            background-color: #4CAF50;
-            padding: 10px 20px;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-            font-weight: bold;
-        }
+.cta-btn {
+    background-color: #4CAF50;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
 
-        .cta-btn:hover {
-            background-color: #45a049;
-        }
+.cta-btn:hover {
+    background-color: #45a049;
+}
 
-        /* Section General Styles */
-        .section {
-            padding: 50px;
-            text-align: center;
-        }
+/* Section General Styles */
+.section {
+    padding: 50px;
+    text-align: center;
+}
 
-        h2 {
-            font-size: 2rem;
-            margin-bottom: 20px;
-        }
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
 
-        .job-search {
-            margin-bottom: 30px;
-        }
+.job-search {
+    margin-bottom: 30px;
+}
 
-        .job-search input {
-            padding: 10px;
-            width: 300px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-        }
+.job-search input {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
 
-        .job-search button {
-            padding: 10px 20px;
-            background-color: #4CAF50;
-            color: white;
-            border: none;
-            border-radius: 5px;
-        }
+.job-search button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
 
-        .job-listings .job-item {
-            background-color: white;
-            padding: 20px;
-            border-radius: 5px;
-            margin: 10px 0;
-            text-align: left;
-        }
+.job-listings .job-item {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 10px 0;
+    text-align: left;
+}
 
-        .view-details-btn {
-            color: #4CAF50;
-            text-decoration: none;
-            font-weight: bold;
-        }
+.view-details-btn {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+}
 
-        .guidance-content {
-            display: flex;
-            justify-content: space-around;
-        }
+.guidance-content {
+    display: flex;
+    justify-content: space-around;
+}
 
-        .guidance-item {
-            background-color: white;
-            padding: 20px;
-            border-radius: 5px;
-            width: 30%;
-        }
+.guidance-item {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    width: 30%;
+}
 
-        .opportunity-item {
-            background-color: white;
-            padding: 20px;
-            border-radius: 5px;
-            margin: 10px 0;
-        }
+.opportunity-item {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
 
-        /* Footer */
-        footer {
-            background-color: #4CAF50;
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
+/* Footer */
+footer {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
 
-        .footer-links {
-            margin-bottom: 10px;
-        }
+.footer-links {
+    margin-bottom: 10px;
+}
 
-        .footer-links a {
-            color: white;
-            text-decoration: none;
-            margin: 0 10px;
-        }
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
 
-        .footer-links a:hover {
-            text-decoration: underline;
-        }
+.footer-links a:hover {
+    text-decoration: underline;
+}
 
-        /* Mobile View */
-        @media (max-width: 768px) {
-            .hamburger {
-                display: block;
-            }
+/* Mobile View */
+@media (max-width: 768px) {
+    .hamburger {
+        display: block;
+    }
 
-            .nav-links {
-                display: none;
-                position: absolute;
-                top: 60px;
-                right: 0;
-                background-color: violet; /* Violet background for mobile */
-                width: 100%;
-                flex-direction: column;
-                text-align: center;
-                padding: 10px 0;
-                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-            }
+    .nav-links {
+        display: none;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        background-color: white; /* White background for mobile dropdown */
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+        padding: 10px 0;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
 
-            .nav-links.active {
-                display: flex;
-            }
+    .nav-links.active {
+        display: flex;
+    }
 
-            .nav-links li {
-                display: block;
-                margin: 10px 0;
-            }
+    .nav-links li {
+        display: block;
+        margin: 10px 0;
+    }
 
-            /* Hero Section */
-            .hero h1 {
-                font-size: 2rem;
-            }
+    /* Hero Section */
+    .hero h1 {
+        font-size: 2rem;
+    }
 
-            .hero p {
-                font-size: 1.2rem;
-            }
+    .hero p {
+        font-size: 1.2rem;
+    }
 
-            .cta-btn {
-                padding: 8px 16px;
-                font-size: 1rem;
-            }
+    .cta-btn {
+        padding: 8px 16px;
+        font-size: 1rem;
+    }
 
-            /* Section Padding */
-            .section {
-                padding: 20px;
-            }
+    /* Section Padding */
+    .section {
+        padding: 20px;
+    }
 
-            /* Job Search */
-            .job-search input {
-                width: 100%;
-                margin-bottom: 10px;
-            }
+    /* Job Search */
+    .job-search input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
 
-            /* Guidance Content */
-            .guidance-content {
-                flex-direction: column;
-            }
+    /* Guidance Content */
+    .guidance-content {
+        flex-direction: column;
+    }
 
-            .guidance-item {
-                width: 100%;
-                margin-bottom: 20px;
-            }
+    .guidance-item {
+        width: 100%;
+        margin-bottom: 20px;
+    }
 
-            /* Footer */
-            .footer-links {
-                display: flex;
-                flex-direction: column;
-            }
-        }
+    /* Footer */
+    .footer-links {
+        display: flex;
+        flex-direction: column;
+    }
+}
 
-        @media (max-width: 480px) {
-            /* Hero Section */
-            .hero h1 {
-                font-size: 1.5rem;
-            }
+@media (max-width: 480px) {
+    /* Hero Section */
+    .hero h1 {
+        font-size: 1.5rem;
+    }
 
-            .hero p {
-                font-size: 1rem;
-            }
+    .hero p {
+        font-size: 1rem;
+    }
 
-            /* Job Listings */
-            .job-listings .job-item {
-                padding: 10px;
-            }
+    /* Job Listings */
+    .job-listings .job-item {
+        padding: 10px;
+    }
 
-            /* Footer */
-            footer {
-                padding: 10px;
-                font-size: 0.9rem;
-            }
-        }
+    /* Footer */
+    footer {
+        padding: 10px;
+        font-size: 0.9rem;
+    }
+}
