@@ -207,6 +207,17 @@ footer {
         display: block;
     }
 
+    .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: white; 
+    color: #4CAF50;
+    position: relative;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
     .nav-links {
         display: none;
         position: absolute;
@@ -305,6 +316,20 @@ footer {
 }
 
 @media (max-width: 480px) {
+
+    .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: white; 
+    color: #4CAF50;
+    position: relative;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}    
+
+
+    
     /* Hero Section */
     .hero h1 {
         font-size: 1.5rem;
