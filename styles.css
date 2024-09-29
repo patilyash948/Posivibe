@@ -203,6 +203,15 @@ footer {
 
 
 @media (max-width: 768px) {
+
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    line-height: 1.6;
+}
+
      .hamburger {
         display: block;
     }
@@ -317,6 +326,17 @@ footer {
 
 @media (max-width: 480px) {
 
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    line-height: 1.6;
+}
+
+
+
+    
     .navbar {
     display: flex;
     justify-content: space-between;
