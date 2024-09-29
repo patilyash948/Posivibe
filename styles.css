@@ -143,10 +143,11 @@ h2 {
 
 /* Footer */
 footer {
-    background-color: #4CAF50;
-    color: white;
+    background-color: white; /* White footer background */
+    color: #4CAF50; /* Green text for contrast */
     padding: 20px;
     text-align: center;
+    border-top: 1px solid #ddd; /* Subtle border for separation */
 }
 
 .footer-links {
@@ -154,7 +155,7 @@ footer {
 }
 
 .footer-links a {
-    color: white;
+    color: #4CAF50; /* Green links in the footer */
     text-decoration: none;
     margin: 0 10px;
 }
@@ -162,6 +163,7 @@ footer {
 .footer-links a:hover {
     text-decoration: underline;
 }
+
 
 /* Mobile View */
 @media (max-width: 768px) {
@@ -227,10 +229,28 @@ footer {
     }
 
     /* Footer */
-    .footer-links {
-        display: flex;
-        flex-direction: column;
-    }
+footer {
+    background-color: white; /* White footer background */
+    color: #4CAF50; /* Green text for contrast */
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #ddd; /* Subtle border for separation */
+}
+
+.footer-links {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #4CAF50; /* Green links in the footer */
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
 }
 
 @media (max-width: 480px) {
@@ -248,9 +268,27 @@ footer {
         padding: 10px;
     }
 
-    /* Footer */
-    footer {
-        padding: 10px;
-        font-size: 0.9rem;
-    }
+   /* Footer */
+footer {
+    background-color: white; /* White footer background */
+    color: #4CAF50; /* Green text for contrast */
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #ddd; /* Subtle border for separation */
+}
+
+.footer-links {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #4CAF50; /* Green links in the footer */
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
 }
