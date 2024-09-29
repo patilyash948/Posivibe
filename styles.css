@@ -7,16 +7,16 @@ body {
     line-height: 1.6;
 }
 
-/* Navbar */
-.navbar {
+
+/* .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
-    background-color: white; /* White navbar */
-    color: #4CAF50; /* Green text */
+    background-color: white; 
+    color: #4CAF50;
     position: relative;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for navbar */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
 }
 
 .nav-links {
@@ -30,7 +30,7 @@ body {
 }
 
 .nav-links a {
-    color: #4CAF50; /* Green links */
+    color: #4CAF50; 
     text-decoration: none;
     font-weight: bold;
 }
@@ -39,7 +39,41 @@ body {
     display: none;
     font-size: 2rem;
     cursor: pointer;
-    color: #4CAF50; /* Green hamburger icon */
+    color: #4CAF50; 
+}*/
+
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: white; /* Background color of the navbar */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.logo img {
+    height: 50px;
+    width: auto; /* Maintain aspect ratio */
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.hamburger {
+    display: none;
+    font-size: 2rem;
+    cursor: pointer;
 }
 
 /* Hero Section */
@@ -163,9 +197,9 @@ footer {
     text-decoration: underline;
 }
 
-/* Mobile View */
+
 @media (max-width: 768px) {
-    .hamburger {
+   /*  .hamburger {
         display: block;
     }
 
@@ -174,7 +208,7 @@ footer {
         position: absolute;
         top: 60px;
         right: 0;
-        background-color: white; /* White background for mobile dropdown */
+        background-color: white; 
         width: 100%;
         flex-direction: column;
         text-align: center;
@@ -189,7 +223,36 @@ footer {
     .nav-links li {
         display: block;
         margin: 10px 0;
+    }*/
+
+
+
+
+.hamburger {
+        display: block;
     }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        background-color: white;
+        width: 100%;
+        text-align: center;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+    }
+}
+    
 
     /* Hero Section */
     .hero h1 {
