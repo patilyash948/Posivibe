@@ -326,7 +326,7 @@ footer {
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 400px) {
 
 body {
     font-family: Arial, sans-serif;
@@ -371,6 +371,35 @@ body {
     .job-listings .job-item {
         padding: 10px;
     }
+
+
+    .cta-btn {
+        padding: 8px 16px;
+        font-size: 1rem;
+    }
+
+    /* Section Padding */
+    .section {
+        padding: 20px;
+    }
+
+    /* Job Search */
+    .job-search input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    /* Guidance Content */
+    .guidance-content {
+        flex-direction: column;
+    }
+
+    .guidance-item {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    
 
     /* Footer */
     footer {
