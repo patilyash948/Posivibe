@@ -78,21 +78,19 @@ body {
     background-color: #45a049;
 }
 
-/* Explore Jobs Section */
-.explore-jobs {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+/* Section General Styles */
+.section {
     padding: 50px;
-    background-color: #f9f9f9;
+    text-align: center;
 }
 
-.explore-jobs h2 {
+h2 {
     font-size: 2rem;
+    margin-bottom: 20px;
 }
 
 .job-search {
-    flex: 1;
+    margin-bottom: 30px;
 }
 
 .job-search input {
@@ -110,39 +108,45 @@ body {
     border-radius: 5px;
 }
 
-/* Image next to Explore Jobs */
-.explore-job-image {
-    flex: 1;
-    text-align: right;
+.job-listings .job-item {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 10px 0;
+    text-align: left;
 }
 
-.explore-job-image img {
-    max-width: 400px;
-    width: 100%;
-    border-radius: 10px;
+.view-details-btn {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
 }
 
-/* Job Highlights Section */
-.job-highlights {
-    padding: 50px;
-    background-color: #fff;
-    text-align: center;
+.guidance-content {
+    display: flex;
+    justify-content: space-around;
 }
 
-.job-highlights img {
-    margin-top: 20px;
-    max-width: 600px;
-    width: 100%;
-    border-radius: 10px;
+.guidance-item {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    width: 30%;
+}
+
+.opportunity-item {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 10px 0;
 }
 
 /* Footer */
 footer {
-    background-color: white; /* White footer background */
-    color: #4CAF50; /* Green text for contrast */
+    background-color: #4CAF50;
+    color: white;
     padding: 20px;
     text-align: center;
-    border-top: 1px solid #ddd; /* Subtle border for separation */
 }
 
 .footer-links {
@@ -150,7 +154,7 @@ footer {
 }
 
 .footer-links a {
-    color: #4CAF50; /* Green links in the footer */
+    color: white;
     text-decoration: none;
     margin: 0 10px;
 }
@@ -201,24 +205,47 @@ footer {
         font-size: 1rem;
     }
 
-    /* Explore Jobs Section */
-    .explore-jobs {
-        flex-direction: column;
+    /* Section Padding */
+    .section {
+        padding: 20px;
     }
 
-    .explore-job-image {
-        text-align: center;
-        margin-top: 20px;
-    }
-
+    /* Job Search */
     .job-search input {
         width: 100%;
         margin-bottom: 10px;
     }
 
-    /* Job Highlights Section */
-    .job-highlights img {
+    /* Guidance Content */
+    .guidance-content {
+        flex-direction: column;
+    }
+
+    .guidance-item {
         width: 100%;
+        margin-bottom: 20px;
+    }
+
+    /* Footer */
+    .footer-links {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Hero Section */
+    .hero h1 {
+        font-size: 1.5rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    /* Job Listings */
+    .job-listings .job-item {
+        padding: 10px;
     }
 
     /* Footer */
