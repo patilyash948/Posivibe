@@ -18,6 +18,10 @@ body {
     position: relative;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
 }
+.logo img {
+    height: 50px;
+    width: auto; 
+}
 
 .nav-links {
     list-style: none;
@@ -215,6 +219,10 @@ footer {
         padding: 10px 0;
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     }
+    .logo img {
+    height: 50px;
+    width: auto; 
+}
 
     .nav-links.active {
         display: flex;
@@ -301,6 +309,11 @@ footer {
     .hero h1 {
         font-size: 1.5rem;
     }
+
+    .logo img {
+    height: 50px;
+    width: auto; 
+}
 
     .hero p {
         font-size: 1rem;
