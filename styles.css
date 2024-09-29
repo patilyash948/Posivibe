@@ -303,24 +303,6 @@ footer {
         padding: 20px;
     }
 
-    .job-search {
-    margin-bottom: 30px;
-}
-
-.job-search input {
-    padding: 10px;
-    width: 300px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-.job-search button {
-    padding: 10px 20px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    border-radius: 5px;
-}
 
     /* Guidance Content 
     .guidance-content {
@@ -336,6 +318,10 @@ footer {
     .footer-links {
         display: flex;
         flex-direction: column;
+    }
+     .job-search input {
+        width: 70%;
+        margin-bottom: 10px;
     }
 }
 
@@ -396,30 +382,13 @@ body {
         padding: 20px;
     }
 
-    /* Job Search 
+   
     .job-search input {
-        width: 100%;
+        width: 70%;
         margin-bottom: 10px;
-    }*/
+    }
 
-    .job-search {
-    margin-bottom: 30px;
-}
-
-.job-search input {
-    padding: 10px;
-    width: 300px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-.job-search button {
-    padding: 10px 20px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    border-radius: 5px;
-}
+   
 
     /* Guidance Content 
     .guidance-content {
