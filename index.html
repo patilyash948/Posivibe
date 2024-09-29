@@ -3,86 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PosiVibe - Kickstart Your Career</title>
+    <title>PosiVibe - Freshers Job Updates</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
     <!-- Navbar -->
-    <header>
-        <nav class="navbar">
-            <div class="logo">PosiVibe</div>
-            <div class="hamburger" onclick="toggleMenu()">☰</div>
-            <ul class="nav-links" id="nav-links">
-                <li><a href="#jobs">Jobs</a></li>
-                <li><a href="#career-guidance">Career Guidance</a></li>
-                <li><a href="#opportunities">Opportunities</a></li>
-                <li><a href="#about-us">About Us</a></li>
-                <li><a href="#contact-us">Contact Us</a></li>
-            </ul>
-        </nav>
-    </header>
+    <nav class="navbar">
+        <h1>PosiVibe</h1>
+        <div class="hamburger" onclick="toggleMenu()">☰</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#explore">Explore Jobs</a></li>
+            <li><a href="#guidance">Career Guidance</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
     <!-- Hero Section -->
     <section class="hero">
-        <div class="hero-content">
-            <h1>Welcome to PosiVibe!</h1>
-            <p>Your one-stop destination for freshers job updates, career guidance, and off-campus opportunities!</p>
-            <a href="#jobs" class="cta-btn">Explore Jobs</a>
-        </div>
+        <h1>Welcome to PosiVibe</h1>
+        <p>Your one-stop destination for freshers' job updates, career guidance, and off-campus opportunities!</p>
+        <a href="#explore" class="cta-btn">Explore Jobs</a>
     </section>
 
-    <!-- Jobs Section -->
-    <section id="jobs" class="section">
-        <h2>Find Your Dream Job</h2>
+    <!-- Explore Jobs Section -->
+    <section id="explore" class="explore-jobs section">
         <div class="job-search">
-            <input type="text" placeholder="Search for jobs..." />
-            <button>Search</button>
+            <h2>Explore Jobs</h2>
+            <form>
+                <input type="text" placeholder="Search jobs...">
+                <button type="submit">Search</button>
+            </form>
         </div>
-        <div class="job-listings">
-            <!-- Job Listing Example -->
-            <div class="job-item">
-                <h3>Software Engineer</h3>
-                <p>Company: XYZ Corp | Location: Remote</p>
-                <a href="#" class="view-details-btn">View Details</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Career Guidance Section -->
-    <section id="career-guidance" class="section">
-        <h2>Career Guidance</h2>
-        <div class="guidance-content">
-            <div class="guidance-item">
-                <h3>Resume Building Tips</h3>
-                <p>Learn how to create a strong resume that gets noticed by top MNCs.</p>
-            </div>
-            <div class="guidance-item">
-                <h3>Interview Prep</h3>
-                <p>Prepare effectively for your upcoming interviews with our expert advice.</p>
-            </div>
+        <!-- Image next to Explore Jobs -->
+        <div class="explore-job-image">
+            <img src="explore-job-image.jpg" alt="Job Search" class="explore-img">
         </div>
     </section>
 
-    <!-- Opportunities Section -->
-    <section id="opportunities" class="section">
-        <h2>Off-Campus Opportunities</h2>
-        <div class="opportunity-item">
-            <h3>XYZ Corp Off-Campus Drive</h3>
-            <p>Join the upcoming recruitment drive by XYZ Corp.</p>
-        </div>
+    <!-- Job Highlights Section -->
+    <section class="job-highlights section">
+        <h2>Job Highlights</h2>
+        <p>Get the latest updates on top MNCs hiring freshers.</p>
+        <img src="job-highlights-image.jpg" alt="Job Highlights" class="job-highlight-img">
     </section>
 
     <!-- Footer -->
     <footer>
-        <div class="footer-content">
-            <div class="footer-links">
-                <a href="#about-us">About Us</a> | 
-                <a href="#contact-us">Contact Us</a>
-            </div>
-            <p>&copy; 2024 PosiVibe. All rights reserved.</p>
+        <div class="footer-links">
+            <a href="#home">Home</a>
+            <a href="#explore">Explore Jobs</a>
+            <a href="#guidance">Career Guidance</a>
+            <a href="#contact">Contact</a>
         </div>
+        <p>&copy; 2024 PosiVibe. All rights reserved.</p>
     </footer>
 
-    <script src="scripts.js"></script>
+    <!-- Script for toggling mobile menu -->
+    <script>
+        function toggleMenu() {
+            const navLinks = document.querySelector('.nav-links');
+            navLinks.classList.toggle('active');
+        }
+    </script>
+
 </body>
 </html>
