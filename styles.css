@@ -320,7 +320,7 @@ footer {
         flex-direction: column;
     }
      .job-search input {
-        width: 70%;
+        width: 90%;
         margin-bottom: 10px;
     }
 }
@@ -384,7 +384,7 @@ body {
 
    
     .job-search input {
-        width: 70%;
+        width: 90%;
         margin-bottom: 10px;
     }
 
